@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulaire</title>
+</head>
+<body>
+  <form action="etudiant.php" method="post">
+    <strong> Enregistrement d'un étudiant</strong>
+     <table border="0"> 
+      <tr>
+        <td>Nom</td>
+        <td>
+          <input type="text" name="nom" placeholder="saisissez votre nom">
+        </td>
+      </tr>
+      <tr>
+        <td>Prenoms</td>
+        <td>
+          <input type="text" name="Prenoms" placeholder="saisissez votre Prenoms">
+        </td>
+      </tr>
+      <tr>
+        <td>Formation</td>
+        <td>
+          Initial<input type="checkbox" name="initial" value="I">
+          Continue<input type="checkbox" name="Continue" value="C">
+        </td>
+      </tr>
+      <tr>
+        <td>Cursus</td>
+        <td>
+          <select name="cursus" id="">
+            <option value="informatique">Informatique</option> 
+            <option value="mathematique">Mathématique</option> 
+            <option value="lettres">Lettres</option> 
+            <option value="economie">Economie</option> 
+            <option value="">Maçonnerie</option> 
+            <option value="informatique">Hotelerie</option> 
+            <option value="mathematique">Scientifique</option> 
+            <option value="lettres">Biologiste</option> 
+            <option value="economie">Veterinaire</option> 
+            <option value="autre">Autre</option>
+          </select>
+        </td>
+      </tr>
+      <TR> 
+        <TD>Commentaires</TD> 
+        <TD> 
+        <textarea rows="3" name="commentaires">
+          Tapez ici vos commentaires 
+        </textarea> 
+      </TD> 
+     </TR>
+     <TR> 
+     <TD COLSPAN=1> 
+        <input type="submit" value="Envoyer"> 
+        <input type="reset" value="Effacer"> 
+     </TD>
+    </TR>
+     </table>
+  </form>
+</body>
+</html>
