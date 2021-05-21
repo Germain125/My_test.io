@@ -5,6 +5,7 @@ printf("entrer un nombre: ");
 scanf("%d" , &a);
 printf("saisir le second nombre: ");
 scanf("%d" , &b);
+printf("you are welcome");
 if((a>b) || (b>a))
 {
   scanf("le max est: " "%d" , &a);
